@@ -1,0 +1,52 @@
+[
+	{
+		"id": 0,
+		"imageUrl": "https://storage.vsemayki.ru/images/0/2/2091/2091963/previews/people_1_womens_vests_front_lightgray_500.jpg",
+		"title": "Vaporwave",
+		"types": [0, 1],
+		"sizes": [40, 42, 44],
+		"price": 145,
+		"category": 0,
+		"rating": 4
+	},
+	{
+		"id": 1,
+		"imageUrl": "https://storage.vsemayki.ru/images/0/2/2991/2991575/previews/people_4_womanshort_oversize_front_black_500.jpg",
+		"title": "Sensei",
+		"types": [0],
+		"sizes": [40, 42, 44],
+		"price": 99,
+		"category": 1,
+		"rating": 6
+	},
+	{
+		"id": 2,
+		"imageUrl": "https://storage.vsemayki.ru/images/0/0/114/114873/previews/people_7_manshort_front_white_500.jpg",
+		"title": "Da Vinci's Cat",
+		"types": [0, 1],
+		"sizes": [40, 42, 44],
+		"price": 99,
+		"category": 2,
+		"rating": 2
+	},
+	{
+		"id": 3,
+		"imageUrl": "https://storage.vsemayki.ru/images/0/2/2545/2545103/previews/people_7_manshort_front_white_500.jpg",
+		"title": "FOCUS",
+		"types": [0, 1],
+		"sizes": [40, 42, 44],
+		"price": 125,
+		"category": 1,
+		"rating": 2
+	},
+	{
+		"id": 4,
+		"imageUrl": "https://storage.vsemayki.ru/images/0/2/2715/2715871/previews/people_7_manshort_front_black_500.jpg",
+		"title": "anime LOVELY EYES",
+		"types": [0],
+		"sizes": [40, 42, 44],
+		"price": 155,
+		"category": 2,
+		"rating": 2
+	}
+]
