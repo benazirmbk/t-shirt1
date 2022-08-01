@@ -14,7 +14,7 @@
 		"imageUrl": "https://storage.vsemayki.ru/images/0/2/2991/2991575/previews/people_4_womanshort_oversize_front_black_500.jpg",
 		"title": "Sensei",
 		"types": [0],
-		"sizes": [40, 42, 44],
+		"sizes": ["40 s", " 42 m", "44 l"],
 		"price": 99,
 		"category": 1,
 		"rating": 6

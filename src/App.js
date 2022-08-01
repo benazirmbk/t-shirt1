@@ -1,8 +1,10 @@
 import Categories from './components/Categories'
 import Header from './components/Header'
 import Sort from './components/Sort'
-import './scss/app.scss'
+import TshirtBlock from './components/TshirtBlock'
+import products from './assets/shirt.json'
 
+import './scss/app.scss'
 
 const App = () => {
 	return (
@@ -16,6 +18,9 @@ const App = () => {
 					</div>
 					<h2 className='content__title'>Сhoose</h2>
 					<div className='content__items'>
+						{products.map(product => (
+							<TshirtBlock {...product} />
+						))}
 					</div>
 				</div>
 			</div>
