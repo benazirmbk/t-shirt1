@@ -1,12 +1,20 @@
+import { useEffect, useState } from 'react'
 import Categories from './components/Categories'
 import Header from './components/Header'
-import Sort from './components/Sort'
 import TshirtBlock from './components/TshirtBlock'
-import products from './assets/shirt.json'
+import Sort from './components/Sort'
 
 import './scss/app.scss'
 
 const App = () => {
+	const [products, setProducts] = useState([])
+
+	useEffect(() => {
+		fetch('https://62e92915249bb1284ebbb897.mockapi.io/shirts')
+			.then(res => res.json())
+			.then(data => setProducts(data))
+	}, [])
+
 	return (
 		<div className='wrapper'>
 			<Header />
@@ -19,7 +27,7 @@ const App = () => {
 					<h2 className='content__title'>Сhoose</h2>
 					<div className='content__items'>
 						{products.map(product => (
-							<TshirtBlock {...product} />
+							<TshirtBlock key={product.id} {...product} />
 						))}
 					</div>
 				</div>

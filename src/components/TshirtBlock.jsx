@@ -21,18 +21,20 @@ const TshirtBlock = ({ title, price, imageUrl, types, sizes }) => {
 				</a>
 				<div className='shirt-block__selector'>
 					<ul>
-						{typesName.map((type, index) => (
+						{types.map((type, index) => (
 							<li
+								key={type}
 								className={activeTypes === index ? 'active' : ''}
 								onClick={() => setActiveTypes(index)}
 							>
-								{type}
+								{typesName[type]}
 							</li>
 						))}
 					</ul>
 					<ul>
 						{sizes.map((size, index) => (
 							<li
+								key={size}
 								onClick={() => setActiveSize(index)}
 								className={activeSize === index ? 'active' : ''}
 							>
